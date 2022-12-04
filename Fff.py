@@ -81,7 +81,7 @@ def main_apv():
     os.system('clear')
     print 
     print("")
-    print 50*'~'
+    print 
     print "\x1b[1;93m[1]   Public Cloning     (BEST) LOGIN"
     print "\x1b[1;91m[2]   WITHOUT LOGIN CLONE "
     print "\x1b[1;92m[3]   File Cloning    BEST METHOD "
