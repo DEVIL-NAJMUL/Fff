@@ -71,7 +71,7 @@ def main_apv():
         m=q['name']
         print("")
     except requests.exceptions.ConnectionError:
-        print logo
+        print
         print("")
         print "Trun On Data An Then \t"
         print("")
