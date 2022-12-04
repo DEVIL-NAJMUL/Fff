@@ -73,7 +73,7 @@ def main_apv():
     except requests.exceptions.ConnectionError:
         print
         print("")
-        print "Trun On Data An Then \t"
+        print
         print("")
     except:
         print ('\x1b[1;91mToken on Chekpiont ')
