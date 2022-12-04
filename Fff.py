@@ -72,7 +72,7 @@ def main_apv():
         print("")
     except requests.exceptions.ConnectionError:
         print logo
-        print ''
+        print("")
         print "Trun On Data An Then \t"
         print("")
     except:
