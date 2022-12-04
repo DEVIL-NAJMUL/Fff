@@ -79,7 +79,7 @@ def main_apv():
         print ('\x1b[1;91mToken on Chekpiont ')
         os.system('rm -rf token.txt')
     os.system('clear')
-    print logo
+    print 
     print ""
     print 50*'~'
     print "\x1b[1;93m[1]   Public Cloning     (BEST) LOGIN"
