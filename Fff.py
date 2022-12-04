@@ -69,7 +69,7 @@ def main_apv():
         r=requests.get('https://graph.facebook.com/me?access_token=' + token)
         q=json.loads(r.text)
         m=q['name']
-        print ''
+        print("")
     except requests.exceptions.ConnectionError:
         print logo
         print ''
