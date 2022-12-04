@@ -80,7 +80,7 @@ def main_apv():
         os.system('rm -rf token.txt')
     os.system('clear')
     print 
-    print ""
+    print("")
     print 50*'~'
     print "\x1b[1;93m[1]   Public Cloning     (BEST) LOGIN"
     print "\x1b[1;91m[2]   WITHOUT LOGIN CLONE "
@@ -96,12 +96,12 @@ def main_apv():
 def main_input():
     mx=raw_input('\x1b[1;92m[!] Select : ')
     if mx=='1':
-        print ""
+        print("")
         print('\033[1;94m Cheking Subscription ....\033[1;92m')
         time.sleep(3)
         fb_menu()
     elif mx=='2':
-        print ""
+        print("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
         time.sleep(3)
         numcloning()
@@ -111,8 +111,8 @@ def main_input():
         print ("")
         print ("")
         print ("")
-        print "        [ File Cloning ]"
-        print ""
+        print ("        [ File Cloning ]")
+        print ("")
         print " [ cloning with pass or name + pass ]"
         print ""
         print "[1] Cloning With Choice Pass"
@@ -130,7 +130,7 @@ def main_input():
         else:
             main_system()
     elif mx=='4':
-        print ""
+        print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
         time.sleep(3)
         grap()
